@@ -31,4 +31,10 @@ jobs:
       - name: Build MkDocs site
         run: |
           cd my-project
-          mkdocs gh-deploy
+          mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: my-project/site
