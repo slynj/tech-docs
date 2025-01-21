@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-
+      
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -21,8 +21,10 @@ jobs:
     - name: Install dependencies
       run: |
         pip install mkdocs
-        pip install mkdocs-material # Example: Change to your chosen theme
-        pip install mkdocs-git-revision-date-localized-plugin # Optional plugins
+        pip install mkdocs-material # Replace with your MkDocs theme if different
+
+    - name: Build MkDocs site
+      run: mkdocs build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
