@@ -39,6 +39,7 @@ nav:
   - Home: index.md
   - 5G-Network:
     - 5G Core - Building Open5GS: "5G-Network/5G Core - Building Open5GS 17e011ff45b98048a6aff1a15e6d60a5.md"
+    - 5G UE & RAN - Building UERANSIM: "5G-Network/5G UE & RAN with UERANSIM 17e011ff45b98023b13bc0a753286816.md"
 
 markdown_extensions:
   - toc:
@@ -53,6 +54,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
 extra_css:
   - stylesheets/custom.css

@@ -212,20 +212,20 @@ Add subscriber information
 
 Remove the Open5GS packages.
 
-```yaml
+```bash
 sudo apt purge open5gs
 sudo apt autoremove
 ```
 
 Remove the logs as well.
 
-```yaml
+```bash
 sudo rm -Rf /var/log/open5gs
 ```
 
 Remove the WebUI.
 
-```yaml
+```bash
 curl -fsSL https://open5gs.org/open5gs/assets/webui/uninstall | sudo -E bash -
 ```
 
