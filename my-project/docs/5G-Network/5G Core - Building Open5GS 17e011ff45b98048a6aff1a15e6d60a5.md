@@ -1,7 +1,5 @@
 # 5G Core - Building Open5GS
 
-[Quickstart](https://open5gs.org/open5gs/docs/guide/01-quickstart/)
-
 This guide will walk you through installing Open5Gs in Ubuntu environment. Please check the official document for other environments as you might need to build from source.
 
 ## 1. Getting MongoDB
@@ -230,3 +228,8 @@ Remove the WebUI.
 ```yaml
 curl -fsSL https://open5gs.org/open5gs/assets/webui/uninstall | sudo -E bash -
 ```
+
+<br>
+
+RESROUCES:
+[Open5Gs Official Documentation](https://open5gs.org/open5gs/docs/guide/01-quickstart/)
