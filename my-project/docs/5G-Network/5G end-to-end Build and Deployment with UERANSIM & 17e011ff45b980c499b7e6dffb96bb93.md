@@ -9,7 +9,7 @@
 
 Follow the steps in the page below; stop when you see the configuration steps.
 
-[5G Core - Building Open5GS](https://slynj.github.io/Documentations/5G-Network/5G%20Core%20-%20Building%20Open5GS%2017e011ff45b98048a6aff1a15e6d60a5/) 
+[5G Core - Building Open5GS](https://slynj.github.io/tech-docs/5G-Network/5G%20Core%20-%20Building%20Open5GS%2017e011ff45b98048a6aff1a15e6d60a5/) 
 
 ## 3. 5G Core Configuration
 
@@ -508,7 +508,7 @@ sudo systemctl restart open5gs-upfd
 
 Follow the steps in the page below; follow all the configuration steps.
 
-[5G UE & RAN with UERANSIM](https://slynj.github.io/Documentations/5G-Network/5G%20UE%20%26%20RAN%20with%20UERANSIM%2017e011ff45b98023b13bc0a753286816/) 
+[5G UE & RAN with UERANSIM](https://slynj.github.io/tech-docs/5G-Network/5G%20UE%20%26%20RAN%20with%20UERANSIM%2017e011ff45b98023b13bc0a753286816/) 
 
 ??? example "`open5gs-ue.yaml`"
     
