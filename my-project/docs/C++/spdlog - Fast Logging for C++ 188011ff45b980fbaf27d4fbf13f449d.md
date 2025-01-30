@@ -1,4 +1,4 @@
-# spdlog - Fast Logging for C++
+# Fast Logging for C++ with spdlog
 
 ## 1. Installation
 

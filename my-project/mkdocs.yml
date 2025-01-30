@@ -47,7 +47,8 @@ nav:
   - Commands/Tools:
     - Change Hostname on Linux with CLI: "Commands/Change Hostname on Linux with CLI 181011ff45b980e38a50eea810ec0493.md"
   - C++:
-    - spdlog - Fast Logging for C++: "C++/spdlog - Fast Logging for C++ 188011ff45b980fbaf27d4fbf13f449d.md"
+    - Fast Logging for C++ with spdlog: "C++/spdlog - Fast Logging for C++ 188011ff45b980fbaf27d4fbf13f449d.md"
+    - Simple REST API Implementation in C++ with nghttp2, jsoncpp: "C++/Simple REST API Implementation in C++ with nghttp2 189011ff45b980a49b60c4a7cd6d2c2c.md"
 
 markdown_extensions:
   - toc:
