@@ -49,6 +49,7 @@ nav:
   - C++:
     - Fast Logging for C++ with spdlog: "C++/spdlog - Fast Logging for C++ 188011ff45b980fbaf27d4fbf13f449d.md"
     - Simple REST API Implementation in C++ with nghttp2, jsoncpp: "C++/Simple REST API Implementation in C++ with nghttp2 189011ff45b980a49b60c4a7cd6d2c2c.md"
+    - Event-Driven Architecture (EDA) in C++ with RabbitMQ (SimpleAmqpClient): "C++/Event-Driven Architecture (EDA) in C++ with Rabbit 18b011ff45b980f79c83ef50b32b2910.md"
 
 markdown_extensions:
   - toc:
