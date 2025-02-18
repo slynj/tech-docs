@@ -44,6 +44,9 @@ nav:
   - Machine Learning:
     - Data Visualization:
       - Correlation Heatmap with Seaborn: "ML/Visualization/Correlation Heatmap with Seaborn 18a011ff45b980ad8f63d0cfeeb659ca.md"
+    - Clustering:
+      - DBSCAN: "ML/Clustering/DBSCAN 19e011ff45b98096b93ffb033d1bba4d.md"
+      - Mean-Shift Clustering: "ML/Clustering/Mean-Shift Clustering 19e011ff45b9803c83d2e0856dbeaada.md"
   - Commands/Tools:
     - Change Hostname on Linux with CLI: "Commands/Change Hostname on Linux with CLI 181011ff45b980e38a50eea810ec0493.md"
   - C++:
@@ -66,6 +69,7 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - attr_list
 
 extra_css:
   - stylesheets/custom.css
