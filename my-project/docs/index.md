@@ -1,26 +1,30 @@
-# Welcome to Tech-Docs! 📚✨
+# Welcome to Tech-Docs!
 
-## About 💡
-This is my personal collection of technical documentation where I’ve gathered everything I’ve learned so far. It’s a mix of things I’ve explored, built, and found useful along the way. I try to keep it updated regularly with new topics and ideas. 
+## About 
+This is my collection of documentations where I’ve gathered everything I’ve learned so far. It’s a mix of things I’ve explored, built, and found useful along the way. I'll try to keep it updated regularly with new topics and concepts :> 
 <br> <br>
-Most of the documents were originally written as a reference for myself, so I can revisit and recall things when needed. But if anyone else finds it helpful, I'd be happy! 😊
+Most of the documents were originally written as a reference for myself, so I can revisit and recall things when needed. Completely open to suggestions and improvements! 
 
 ---
 
-## What’s Inside? 👩‍💻
-- **5G Networks** 📡  
-  Learn about Open5GS, UERANSIM, and full end-to-end 5G deployment.
+## What’s Inside? 
+- **5G Networks** 
+  Open5GS, UERANSIM, full end-to-end 5G deployment, and etc.
 
-- **Docker** 🐳  
+- **Docker** 
   Containerization, managing Docker images, and Docker Compose.
 
-- **Linux Commands** 🐧  
+- **Linux Commands** 
   Useful commands.
 
-- **And More!** 
+- **Machine Learning**
+  Visualization, Algorithms, and etc.
+
+- **And More! (hopefully)** 
 
 ---
 
-## Explore! 🚀
 
-Navigate the menus on the top.
+## Contact  
+Email: [l2jeong@uwaterloo.ca](mailto:l2jeong@uwaterloo.ca)  
+Website: [lynjeong.com](https://lynjeong.com)  
