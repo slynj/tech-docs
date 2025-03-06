@@ -47,6 +47,8 @@ nav:
     - Clustering:
       - DBSCAN: "ML/Clustering/DBSCAN 19e011ff45b98096b93ffb033d1bba4d.md"
       - Mean-Shift Clustering: "ML/Clustering/Mean-Shift Clustering 19e011ff45b9803c83d2e0856dbeaada.md"
+    - Neural Network:
+      - Hopfield Neural Network: "ML/Neural-Network/Hopfield Neural Network 1a0011ff45b98006ba09f1ae55d72527.md"
   - Commands/Tools:
     - Change Hostname on Linux with CLI: "Commands/Change Hostname on Linux with CLI 181011ff45b980e38a50eea810ec0493.md"
   - C++:
