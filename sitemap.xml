@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://slynj.github.io/tech-docs/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/5G-Network/5G%20Core%20-%20Building%20Open5GS%2017e011ff45b98048a6aff1a15e6d60a5/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/5G-Network/5G%20UE%20%26%20RAN%20with%20UERANSIM%2017e011ff45b98023b13bc0a753286816/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/5G-Network/5G%20end-to-end%20Build%20and%20Deployment%20with%20UERANSIM%20%26%2017e011ff45b980c499b7e6dffb96bb93/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/C%2B%2B/Event-Driven%20Architecture%20%28EDA%29%20in%20C%2B%2B%20with%20Rabbit%2018b011ff45b980f79c83ef50b32b2910/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/C%2B%2B/Simple%20REST%20API%20Implementation%20in%20C%2B%2B%20with%20nghttp2%20189011ff45b980a49b60c4a7cd6d2c2c/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/C%2B%2B/spdlog%20-%20Fast%20Logging%20for%20C%2B%2B%20188011ff45b980fbaf27d4fbf13f449d/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/Commands/Change%20Hostname%20on%20Linux%20with%20CLI%20181011ff45b980e38a50eea810ec0493/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/ML/Clustering/DBSCAN%2019e011ff45b98096b93ffb033d1bba4d/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/ML/Clustering/Mean-Shift%20Clustering%2019e011ff45b9803c83d2e0856dbeaada/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
+    </url>
+    <url>
+         <loc>https://slynj.github.io/tech-docs/ML/Neural-Network/Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/</loc>
+         <lastmod>2025-03-07</lastmod>
     </url>
     <url>
          <loc>https://slynj.github.io/tech-docs/ML/Visualization/Correlation%20Heatmap%20with%20Seaborn%2018a011ff45b980ad8f63d0cfeeb659ca/</loc>
-         <lastmod>2025-03-06</lastmod>
+         <lastmod>2025-03-07</lastmod>
     </url>
 </urlset>

@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://slynj.github.io/tech-docs/ML/Visualization/Correlation%20Heatmap%20with%20Seaborn%2018a011ff45b980ad8f63d0cfeeb659ca/">
+        <link rel="canonical" href="https://slynj.github.io/tech-docs/ML/Neural-Network/Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/">
       
       
-        <link rel="prev" href="../../../5G-Network/5G%20end-to-end%20Build%20and%20Deployment%20with%20UERANSIM%20%26%2017e011ff45b980c499b7e6dffb96bb93/">
+        <link rel="prev" href="../../Clustering/Mean-Shift%20Clustering%2019e011ff45b9803c83d2e0856dbeaada/">
       
       
-        <link rel="next" href="../../Clustering/DBSCAN%2019e011ff45b98096b93ffb033d1bba4d/">
+        <link rel="next" href="../../../Commands/Change%20Hostname%20on%20Linux%20with%20CLI%20181011ff45b980e38a50eea810ec0493/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Correlation Heatmap with Seaborn - lyn</title>
+        <title>Hopfield Neural Network - lyn</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#correlation-heatmap-with-seaborn" class="md-skip">
+        <a href="#hopfield-neural-network" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Correlation Heatmap with Seaborn
+              Hopfield Neural Network
             
           </span>
         </div>
@@ -252,7 +252,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../../Visualization/Correlation%20Heatmap%20with%20Seaborn%2018a011ff45b980ad8f63d0cfeeb659ca/" class="md-tabs__link">
           
   
   Machine Learning
@@ -522,8 +522,6 @@
                 
   
   
-    
-  
   
   
     
@@ -538,11 +536,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1" >
         
           
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="">
@@ -557,7 +557,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             Data Visualization
@@ -568,31 +568,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Correlation Heatmap with Seaborn
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Visualization/Correlation%20Heatmap%20with%20Seaborn%2018a011ff45b980ad8f63d0cfeeb659ca/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -602,101 +581,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-load-dataframe" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Load Dataframe
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Load Dataframe">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perform-simple-preprocessing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Perform Simple Preprocessing
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-create-a-correlation-matrix" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Create a Correlation Matrix
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-generate-basic-heatmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Generate Basic Heatmap
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. Generate Basic Heatmap">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#change-parametrs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Change Parametrs
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-generate-triangular-heatmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Generate Triangular Heatmap
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -812,8 +696,10 @@
                 
   
   
+    
   
   
+  
     
     
     
@@ -826,13 +712,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
@@ -847,7 +731,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Neural Network
@@ -858,10 +742,31 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Neural-Network/Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Hopfield Neural Network
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -871,6 +776,128 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation &amp; Demo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation &amp; Demo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#demo-with-corrupted-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo with Corrupted Images
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demo-with-simple-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo with Simple Matrix
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discrete-hopfield-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discrete Hopfield Network
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Discrete Hopfield Network">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure &amp; Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#energy-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energy Function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hebbian-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hebbian Learning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Training Algorithm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1106,28 +1133,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-installation" class="md-nav__link">
+  <a href="#implementation-demo" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Installation
+      Implementation &amp; Demo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation &amp; Demo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#demo-with-corrupted-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo with Corrupted Images
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#2-load-dataframe" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Load Dataframe
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Load Dataframe">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#perform-simple-preprocessing" class="md-nav__link">
+  <a href="#demo-with-simple-matrix" class="md-nav__link">
     <span class="md-ellipsis">
-      Perform Simple Preprocessing
+      Demo with Simple Matrix
     </span>
   </a>
   
@@ -1139,28 +1166,64 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-create-a-correlation-matrix" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Create a Correlation Matrix
+      Introduction
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-generate-basic-heatmap" class="md-nav__link">
+  <a href="#discrete-hopfield-network" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Generate Basic Heatmap
+      Discrete Hopfield Network
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4. Generate Basic Heatmap">
+    <nav class="md-nav" aria-label="Discrete Hopfield Network">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#change-parametrs" class="md-nav__link">
+  <a href="#structure-architecture" class="md-nav__link">
     <span class="md-ellipsis">
-      Change Parametrs
+      Structure &amp; Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#energy-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energy Function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hebbian-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hebbian Learning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Training Algorithm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
     </span>
   </a>
   
@@ -1168,15 +1231,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-generate-triangular-heatmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Generate Triangular Heatmap
-    </span>
-  </a>
   
 </li>
       
@@ -1196,100 +1250,148 @@
 
 
 
-<h1 id="correlation-heatmap-with-seaborn">Correlation Heatmap with Seaborn<a class="headerlink" href="#correlation-heatmap-with-seaborn" title="Permanent link">&para;</a></h1>
-<p>In this guide, we’ll explore how to create a correlation heatmap using Seaborn in Python. A heatmap is a powerful visualization tool that highlights important relationships between features and their connection to the target variable (y-value). We’ll cover two common types: the standard heatmap and the triangular heatmap.</p>
-<blockquote>
-<p>The data I used is from <a href="https://arxiv.org/pdf/2212.10343">Berlin V2X paper</a> which collected ML dataset from multiple vehciles and radio access technologies. You can access them <a href="https://ieee-dataport.org/open-access/berlin-v2x">here</a> if you are interested.
-</p>
-</blockquote>
-<h2 id="1-installation">1. Installation<a class="headerlink" href="#1-installation" title="Permanent link">&para;</a></h2>
-<p>Import the following packages. </p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="kn">import</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
-</span></code></pre></div>
-<h2 id="2-load-dataframe">2. Load Dataframe<a class="headerlink" href="#2-load-dataframe" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>I created a <code>.ipynb</code> file to process things step by step. You can choose whatever you’re comfortable with.
-</p>
-</blockquote>
-<p>Load the data you will visualize, and display the first few rows to see the number/types of columns you have.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">data_scaled</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/processed_data.csv&quot;</span><span class="p">)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">display</span><span class="p">(</span><span class="n">data_scaled</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-</span></code></pre></div>
-<p><img alt="image.png" src="image.png" /></p>
-<p>Here, I have 25 columns so my heatmap will be a 25 x 25.</p>
-<h3 id="perform-simple-preprocessing">Perform Simple Preprocessing<a class="headerlink" href="#perform-simple-preprocessing" title="Permanent link">&para;</a></h3>
-<p>Since all of the values need to be in number in order to create the heatmap, perform appropriate preprocessing.</p>
-<p>Run the code below to view the data types of all columns.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">display</span><span class="p">(</span><span class="n">data_scaled</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
-</span></code></pre></div>
-<p>The <code>datarate_DL</code> column in my dataset is currently of type object, but the values are actually numerical data stored as strings. I will convert this column to a numeric type with the code below. Again, perform approriate preprocessing depeding on your dataset.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">data_scaled</span><span class="p">[</span><span class="s1">&#39;datarate_DL&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">data_scaled</span><span class="p">[</span><span class="s1">&#39;datarate_DL&#39;</span><span class="p">])</span>
-</span></code></pre></div>
-<h2 id="3-create-a-correlation-matrix">3. Create a Correlation Matrix<a class="headerlink" href="#3-create-a-correlation-matrix" title="Permanent link">&para;</a></h2>
-<p>Now create a correlation matrix between all features &amp; the y-variable.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">correlation_matrix</span> <span class="o">=</span> <span class="n">data_scaled</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
-</span></code></pre></div>
-<p><img alt="image.png" src="image%201.png" /></p>
-<p>A correlation matrix with all the variables. This dataframe is 25 x 25.</p>
-<h2 id="4-generate-basic-heatmap">4. Generate Basic Heatmap<a class="headerlink" href="#4-generate-basic-heatmap" title="Permanent link">&para;</a></h2>
-<p>Run the code below, and you will be able to see the most basic seaborn correlation heatmap with no modification.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlation_matrix</span><span class="p">)</span>
-</span></code></pre></div>
-<p><img alt="image.png" src="image%202.png" /></p>
-<h3 id="change-parametrs">Change Parametrs<a class="headerlink" href="#change-parametrs" title="Permanent link">&para;</a></h3>
-<p>From here, you can change some argument variables to make it more easier to view. Refer to the <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">official documentation</a> for the list of parameters.</p>
+<h1 id="hopfield-neural-network">Hopfield Neural Network<a class="headerlink" href="#hopfield-neural-network" title="Permanent link">&para;</a></h1>
+<h2 id="implementation-demo">Implementation &amp; Demo<a class="headerlink" href="#implementation-demo" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/slynj/hopfield-neural-network">https://github.com/slynj/hopfield-neural-network</a></p>
+<h3 id="demo-with-corrupted-images">Demo with Corrupted Images<a class="headerlink" href="#demo-with-corrupted-images" title="Permanent link">&para;</a></h3>
+<p>Run <code>train_img.py</code></p>
+<p><img alt="image.png" src="Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/image.png" /></p>
+<p><img alt="image.png" src="Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/image%201.png" width="60%" /></p>
+<h3 id="demo-with-simple-matrix">Demo with Simple Matrix<a class="headerlink" href="#demo-with-simple-matrix" title="Permanent link">&para;</a></h3>
+<p>Run <code>train_test.py</code></p>
 <table>
 <thead>
 <tr>
-<th>Parameters</th>
-<th>Desc</th>
+<th>Training</th>
+<th>Sync</th>
+<th>Async</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>vmin</code>, <code>vmax</code></td>
-<td>set the range of values that serve as the basis for the colormap.</td>
-</tr>
-<tr>
-<td><code>cmap</code></td>
-<td>sets the specific colormap we want to use. check <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">the resource</a> for a list of colour palettes.</td>
-</tr>
-<tr>
-<td><code>annot</code></td>
-<td>when set to <code>True</code>, the correlation values become visible on the coloured cells</td>
-</tr>
-<tr>
-<td><code>cbar</code></td>
-<td>when set to <code>False</code>, the colourbar on the side for legend disappears</td>
+<td><img alt="image.png" src="Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/image%202.png" /></td>
+<td><img alt="image.png" src="Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/image%203.png" /></td>
+<td><img alt="image.png" src="Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/image%204.png" /></td>
 </tr>
 </tbody>
 </table>
-<p>With matplotlib, I also set the overall figure size and the title.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlation_matrix</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;coolwarm&quot;</span><span class="p">)</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Correlation Heatmap&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</span></code></pre></div>
-<p><img alt="image.png" src="image%203.png" /></p>
-<h2 id="5-generate-triangular-heatmap">5. Generate Triangular Heatmap<a class="headerlink" href="#5-generate-triangular-heatmap" title="Permanent link">&para;</a></h2>
-<p>Since this is a 25 x 25 heatmap with 25 variables, half of the correlations are redundant as they are identical to the other half. Additionally, the diagonal elements, representing correlations of variables with themselves, can be misleading/unnecessary in the analysis. To resolve these issues, you can generate a triangular heatmap that only displays lower half of the heatmap.</p>
-<p>This can be done by creating a mask. <code>get_lower_tri()</code> will only leave the lower triangle of our heatmap by masking a boolean matrix.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">get_lower_tri</span><span class="p">(</span><span class="n">corr_matrix</span><span class="p">):</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>    <span class="n">mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">triu</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">corr_matrix</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">bool</span><span class="p">))</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>    <span class="k">return</span> <span class="n">corr_matrix</span><span class="o">.</span><span class="n">mask</span><span class="p">(</span><span class="n">mask</span><span class="p">)</span>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">lower_triangle_corr</span> <span class="o">=</span> <span class="n">get_lower_tri</span><span class="p">(</span><span class="n">correlation_matrix</span><span class="p">)</span>
-</span></code></pre></div>
-<p>Then display the heatmap as usual, and you will be able to see the lower half of it only.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">lower_triangle_corr</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;coolwarm&quot;</span><span class="p">,</span> <span class="n">cbar</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">lower_triangle_corr</span><span class="o">.</span><span class="n">isnull</span><span class="p">())</span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Triangle Correlation Heatmap&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</span></code></pre></div>
-<p><img alt="image.png" src="image%204.png" /></p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Invented by Dr John J. Hopfied, consists of 1 layer of <span class="arithmatex">\(N\)</span> fully connected recurrent neurons.</li>
+<li>Type of recurrent neural network (RNN).</li>
+<li>One of the earliest conceptualization of biological neural networks.</li>
+<li>Designed to remember patterns and retrieve them when given incomplete/noisy data.<ul>
+<li>Brain inspired memory system ⇒ can recall complete memories from partial hints (like how you can recognize a blurry face of a friend and read horrible handwritings)</li>
+</ul>
+</li>
+<li>Generally used in associative memory/optimization tasks.</li>
+</ul>
+<h2 id="discrete-hopfield-network">Discrete Hopfield Network<a class="headerlink" href="#discrete-hopfield-network" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fully connected neurons → every neuron is connected to every other neurons</li>
+<li>Neuron states → Bipolar (-1, 1)</li>
+<li>Symmetric Weights →  <span class="arithmatex">\(w_{ij} = w_{ji}\)</span> , no self-connections ( <span class="arithmatex">\(w_{ii} = 0\)</span> )<ul>
+<li>the connection weight between 2 neurons is the same in both directions (<span class="arithmatex">\(w_{ij} = w_{ji}\)</span>).</li>
+<li>Also, weight to itself is 0 (<span class="arithmatex">\(w_{ii}=0\)</span>). (<span class="arithmatex">\(w_{ij}\)</span> is weight associated with the connection between the <span class="arithmatex">\(i\)</span>th and the <span class="arithmatex">\(j\)</span>th neuron)</li>
+</ul>
+</li>
+<li>Each neuron has an inverting and a non-inverting output.<ul>
+<li>inverting: passes on the oppposite state as it receives (1 ⇒ -1, -1 ⇒ 1)</li>
+<li>non-inverting: passes on the same state as it receives</li>
+</ul>
+</li>
+<li>Associative (Hebbian) learning</li>
+<li>Neurons update themselves based on other neuron’s output</li>
+</ul>
+<h3 id="structure-architecture">Structure &amp; Architecture<a class="headerlink" href="#structure-architecture" title="Permanent link">&para;</a></h3>
+<p><img alt="image.png" src="Hopfield%20Neural%20Network%201a0011ff45b98006ba09f1ae55d72527/image%205.png" /></p>
+<ul>
+<li><span class="arithmatex">\(x_1, x_2, \cdots, x_n\)</span>: input to <span class="arithmatex">\(n\)</span> given neurons</li>
+<li><span class="arithmatex">\(y_1, y_2, \cdots, y_n\)</span>: outputs from <span class="arithmatex">\(n\)</span> given neurons</li>
+<li>Since they’re fully connected, output of each neurons (<span class="arithmatex">\(y_1,y_2, \cdots y_n\)</span>) are inputs to the rest of the neurons excluding itself.</li>
+</ul>
+<h3 id="energy-function">Energy Function<a class="headerlink" href="#energy-function" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Hopfield network is an energy based model.</li>
+<li>When the network receives the corrupted pattern, it updates the neurons iteratively to minimize the energy ⇒ at the end converge to the closest stored pattern.</li>
+<li>The network’s goal is to minimize the value of the energy function ⇒ where the energy minimizes is what the saved pattern is (associated memory).</li>
+<li>So even if the input is disrupted or not complete, it tries to reach the pattern ⇒ converges to the local minima.</li>
+<li><span class="arithmatex">\(E = -\frac{1}{2} \sum_{i \neq j} w_{ij} s_i s_j + \sum_i \theta_i s_i\)</span><ul>
+<li><span class="arithmatex">\(s_i\)</span> : neuron <span class="arithmatex">\(i\)</span>’s current state (-1/1 or 0/1)</li>
+<li><span class="arithmatex">\(w_{ij}\)</span> : neuron <span class="arithmatex">\(i\)</span>  and <span class="arithmatex">\(j\)</span>’s weight (symm.)</li>
+<li><span class="arithmatex">\(\theta\)</span> : threshold of neuron <span class="arithmatex">\(i\)</span> (determines whether the neuron will be activated (1) or deactivated (-1) based on the total input it receives from other neurons.)</li>
+</ul>
+</li>
+</ul>
+<h3 id="hebbian-learning">Hebbian Learning<a class="headerlink" href="#hebbian-learning" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Learning rule used to store the pattern ⇒ calculate the weights.</li>
+<li>Core idea: If 2 neurons activate simultaneously, their synaptic connection strengthens (ie. heavier weight).</li>
+<li><span class="arithmatex">\(w_{ij} = \frac{1}{N} \sum_{\mu=1}^{P} \xi_i^{\mu} \xi_j^{\mu}\)</span><ul>
+<li><span class="arithmatex">\(N\)</span> : # of neurons</li>
+<li><span class="arithmatex">\(P\)</span> : # of patterns to store</li>
+<li><span class="arithmatex">\(\xi_i^{\mu}\)</span> : neuron <span class="arithmatex">\(i\)</span>’s state on the <span class="arithmatex">\(\mu\)</span>th pattern<ul>
+<li><span class="arithmatex">\(ξ\)</span> : state / state pattern</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>“Neurons that fire together wire together”</p>
+</li>
+<li>
+<p>If <span class="arithmatex">\(\xi_i^{\mu} = 1\)</span> and <span class="arithmatex">\(\xi_j^{\mu} = 1\)</span>, <span class="arithmatex">\(\xi_i^{\mu} \xi_j^{\mu} = 1\)</span></p>
+</li>
+<li>
+<p>If one of them is -1, <span class="arithmatex">\(\xi_i^{\mu} \xi_j^{\mu} = -1\)</span></p>
+<ul>
+<li>⇒ when they’re in the same states together, the corresponding weight increases (vice versa).</li>
+</ul>
+</li>
+<li>
+<p>Simple, and can store multiple patterns.</p>
+</li>
+<li>However overlapping patterns can cause errors and it does not forget or adapt new info.</li>
+</ul>
+<h3 id="training-algorithm">Training Algorithm<a class="headerlink" href="#training-algorithm" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Initialize the network<ul>
+<li>determine the # of stored patterns</li>
+<li>get the # of neurons in each pattern</li>
+<li>init the weight matrix</li>
+</ul>
+</li>
+<li>Compute the Average Neuron Activation(rho; <span class="arithmatex">\(\rho\)</span> )<ul>
+<li><span class="arithmatex">\(\rho\)</span> : avg activation value of all neurons across all patterns<ul>
+<li>sum of all vals / num of vals</li>
+</ul>
+</li>
+<li>helps prevent one pattern from dominating the network<ul>
+<li>ex. network could overfit if there’s a pattern with all 1s. (<span class="arithmatex">\(\rho\)</span> prevents it)</li>
+</ul>
+</li>
+<li>subtracting rho makes learning stable by prevent the network from biasing on a particular pattern. (state - rho → then used for dot product for weight calculation)</li>
+</ul>
+</li>
+<li>Hebbian Learning<ul>
+<li>for each patern in the dataset,<ol>
+<li>subtract rho from the pattern to center the values</li>
+<li>computer the outer product and add it to the weight matrix</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Normalize Values<ul>
+<li>divide the weight matrix by the number of data (not the # of vals) → prevents the weights from getting large</li>
+</ul>
+</li>
+</ol>
+<h3 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/takyamamoto/Hopfield-Network">https://github.com/takyamamoto/Hopfield-Network</a></li>
+<li><a href="https://www.geeksforgeeks.org/hopfield-neural-network/">https://www.geeksforgeeks.org/hopfield-neural-network/</a></li>
+<li><a href="https://link.springer.com/article/10.1007/BF00365229">https://link.springer.com/article/10.1007/BF00365229</a></li>
+</ul>
 
 
 
